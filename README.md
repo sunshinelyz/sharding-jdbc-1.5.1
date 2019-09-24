@@ -139,3 +139,15 @@ try (
     </rdb:data-source>
 </beans>
 ```
+
+**源码解析，公号"天河聊架构"** 
+
+![微信公众号](gonghao.jpg) 
+
+**技术微信群**
+ 
+![技术微信群](wechat.png) 
+
+**技术钉钉群** 
+
+![技术钉钉群](dingchat.png) 
