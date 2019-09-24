@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm</OriginalElement>
+  <nodes>
+    <node x="1369.638888888889" y="168.0">com.dangdang.ddframe.rdb.sharding.api.strategy.table.MultipleKeysTableShardingAlgorithm</node>
+    <node x="0.0" y="89.0">com.dangdang.ddframe.rdb.sharding.routing.strategy.NoneKeyShardingAlgorithm</node>
+    <node x="1070.0" y="247.0">com.dangdang.ddframe.rdb.sharding.spring.algorithm.SingleKeyModuloDatabaseShardingAlgorithm</node>
+    <node x="1885.6912037037036" y="89.0">com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingAlgorithm</node>
+    <node x="721.9999999999999" y="247.0">com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyModuloDatabaseShardingAlgorithm</node>
+    <node x="1794.0" y="247.0">com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyModuloTableShardingAlgorithm</node>
+    <node x="352.9999999999999" y="247.0">com.dangdang.ddframe.rdb.integrate.fixture.MultipleKeysModuloDatabaseShardingAlgorithm</node>
+    <node x="878.0555555555557" y="168.0">com.dangdang.ddframe.rdb.sharding.api.strategy.database.SingleKeyDatabaseShardingAlgorithm</node>
+    <node x="215.0" y="400.0">com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingStrategy</node>
+    <node x="130.25" y="321.0">com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingStrategy</node>
+    <node x="1418.0" y="247.0">com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyDynamicModuloTableShardingAlgorithm</node>
+    <node x="1810.6495370370371" y="168.0">com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm</node>
+    <node x="40.0" y="168.0">com.dangdang.ddframe.rdb.sharding.api.strategy.database.NoneKeyDatabaseShardingAlgorithm</node>
+    <node x="19.0" y="247.0">com.dangdang.ddframe.rdb.integrate.fixture.NoneKeyModuloDatabaseShardingAlgorithm</node>
+    <node x="0.0" y="400.0">com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingStrategy</node>
+    <node x="403.6143518518518" y="89.0">com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm</node>
+    <node x="2121.0" y="247.0">com.dangdang.ddframe.rdb.sharding.spring.algorithm.SingleKeyModuloTableShardingAlgorithm</node>
+    <node x="373.9999999999999" y="168.0">com.dangdang.ddframe.rdb.sharding.api.strategy.database.MultipleKeysDatabaseShardingAlgorithm</node>
+    <node x="1417.8162037037036" y="89.0">com.dangdang.ddframe.rdb.sharding.routing.strategy.SingleKeyShardingAlgorithm</node>
+    <node x="849.9476851851852" y="89.0">com.dangdang.ddframe.rdb.sharding.routing.strategy.MultipleKeysShardingAlgorithm</node>
+    <node x="814.6249999999999" y="0.0">com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.MultipleKeysTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.MultipleKeysShardingAlgorithm">
+      <point x="-71.5" y="-14.5" />
+      <point x="1441.138888888889" y="138.0" />
+      <point x="1038.197685185185" y="138.0" />
+      <point x="62.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.SingleKeyDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm">
+      <point x="-71.5" y="-14.5" />
+      <point x="949.5555555555557" y="138.0" />
+      <point x="589.447685185185" y="138.0" />
+      <point x="74.33333333333326" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.MultipleKeysDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm">
+      <point x="-76.75" y="-14.5" />
+      <point x="450.7499999999999" y="148.0" />
+      <point x="515.1143518518518" y="148.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyModuloTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="1947.5" y="222.0" />
+      <point x="1943.1495370370371" y="222.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.integrate.fixture.NoneKeyModuloDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.NoneKeyDatabaseShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingStrategy" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="323.0" y="375.0" />
+      <point x="250.25" y="375.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyModuloDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.SingleKeyDatabaseShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="885.9999999999999" y="222.0" />
+      <point x="949.5555555555557" y="222.0" />
+      <point x="-71.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.spring.algorithm.SingleKeyModuloDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.SingleKeyDatabaseShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="1234.0" y="222.0" />
+      <point x="1092.5555555555557" y="222.0" />
+      <point x="71.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.spring.algorithm.SingleKeyModuloTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="2274.5" y="222.0" />
+      <point x="2031.4828703703704" y="222.0" />
+      <point x="88.33333333333331" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingAlgorithm">
+      <point x="66.25" y="-14.5" />
+      <point x="2009.3995370370371" y="148.0" />
+      <point x="2037.1912037037036" y="148.0" />
+      <point x="50.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.strategy.SingleKeyShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="1532.8162037037036" y="59.0" />
+      <point x="931.5249999999999" y="59.0" />
+      <point x="33.39999999999998" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.MultipleKeysTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingAlgorithm">
+      <point x="71.5" y="-14.5" />
+      <point x="1584.138888888889" y="148.0" />
+      <point x="1936.1912037037036" y="148.0" />
+      <point x="-50.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.NoneKeyDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.NoneKeyShardingAlgorithm">
+      <point x="-68.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="1986.6912037037036" y="49.0" />
+      <point x="964.9249999999998" y="49.0" />
+      <point x="66.79999999999995" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.SingleKeyDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.SingleKeyShardingAlgorithm">
+      <point x="71.5" y="-14.5" />
+      <point x="1092.5555555555557" y="148.0" />
+      <point x="1475.3162037037036" y="148.0" />
+      <point x="-57.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.integrate.fixture.SingleKeyDynamicModuloTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="1596.0" y="222.0" />
+      <point x="1854.8162037037036" y="222.0" />
+      <point x="-88.33333333333333" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.SingleKeyShardingAlgorithm">
+      <point x="-66.25" y="-14.5" />
+      <point x="1876.8995370370371" y="138.0" />
+      <point x="1590.3162037037036" y="138.0" />
+      <point x="57.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.strategy.MultipleKeysShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="975.4476851851852" y="69.0" />
+      <point x="898.1249999999999" y="69.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.NoneKeyDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm">
+      <point x="68.0" y="-14.5" />
+      <point x="244.0" y="148.0" />
+      <point x="440.7810185185185" y="148.0" />
+      <point x="-74.33333333333326" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingStrategy" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="97.5" y="375.0" />
+      <point x="170.25" y="375.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.MultipleKeysDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.MultipleKeysShardingAlgorithm">
+      <point x="76.75" y="-14.5" />
+      <point x="604.2499999999999" y="148.0" />
+      <point x="912.6976851851852" y="148.0" />
+      <point x="-62.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.strategy.NoneKeyShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="108.0" y="59.0" />
+      <point x="831.3249999999999" y="59.0" />
+      <point x="-66.79999999999995" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.integrate.fixture.MultipleKeysModuloDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.api.strategy.database.MultipleKeysDatabaseShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.routing.strategy.ShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="515.1143518518518" y="69.0" />
+      <point x="864.7249999999999" y="69.0" />
+      <point x="-33.39999999999998" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9277634961439588" x="820.0" y="213.0" />
+  <SelectedNodes>
+    <node>com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingStrategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

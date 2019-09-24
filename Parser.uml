@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractParser</OriginalElement>
+  <nodes>
+    <node x="582.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.limit.Limit</node>
+    <node x="0.0" y="642.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser</node>
+    <node x="1459.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLSelectParser</node>
+    <node x="660.0" y="948.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.CreateParserFactory</node>
+    <node x="811.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser</node>
+    <node x="1019.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser</node>
+    <node x="312.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.condition.Column</node>
+    <node x="0.0" y="1175.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AlterParserFactory</node>
+    <node x="21.0" y="721.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLParser</node>
+    <node x="678.0" y="1101.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.SelectParserFactory</node>
+    <node x="219.0" y="1175.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.DropParserFactory</node>
+    <node x="447.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.table.Tables</node>
+    <node x="137.25" y="948.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.SelectItem</node>
+    <node x="617.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser</node>
+    <node x="594.0" y="874.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.ItemsToken</node>
+    <node x="201.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser</node>
+    <node x="452.0" y="1101.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.UpdateParserFactory</node>
+    <node x="156.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.condition.Condition</node>
+    <node x="311.0" y="795.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken</node>
+    <node x="314.5" y="158.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.DQLStatement</node>
+    <node x="297.0" y="874.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OrderByToken</node>
+    <node x="10.5" y="158.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.DMLStatement</node>
+    <node x="420.0" y="948.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.TruncateParserFactory</node>
+    <node x="10.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLAlterParser</node>
+    <node x="1449.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser</node>
+    <node x="211.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLUpdateParser</node>
+    <node x="0.0" y="1101.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.DeleteParserFactory</node>
+    <node x="226.0" y="1101.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.InsertParserFactory</node>
+    <node x="0.0" y="237.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.InsertStatement</node>
+    <node x="1251.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLInsertParser</node>
+    <node x="717.5" y="311.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser</node>
+    <node x="162.5" y="158.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.DDLStatement</node>
+    <node x="1029.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLTruncateParser</node>
+    <node x="431.0" y="1175.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.limit.LimitValue</node>
+    <node x="138.0" y="874.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.RowCountToken</node>
+    <node x="304.0" y="237.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.SelectStatement</node>
+    <node x="0.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.OrderItem</node>
+    <node x="162.5" y="0.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatement</node>
+    <node x="627.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDropParser</node>
+    <node x="449.0" y="874.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OffsetToken</node>
+    <node x="419.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDeleteParser</node>
+    <node x="134.5" y="79.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.AbstractSQLStatement</node>
+    <node x="10.5" y="563.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractParser</node>
+    <node x="409.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser</node>
+    <node x="1241.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser</node>
+    <node x="0.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser</node>
+    <node x="0.0" y="1027.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.AggregationSelectItem</node>
+    <node x="594.0" y="1175.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.condition.Conditions</node>
+    <node x="0.0" y="874.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.TableToken</node>
+    <node x="821.5" y="489.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLCreateParser</node>
+    <node x="710.0" y="1249.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.table.Table</node>
+    <node x="215.0" y="1027.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.CommonSelectItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.AggregationSelectItem" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.SelectItem">
+      <point x="0.0" y="-14.5" />
+      <point x="97.5" y="1002.0" />
+      <point x="166.75" y="1002.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDropParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLUpdateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.DMLStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="76.5" y="133.0" />
+      <point x="165.83333333333334" y="133.0" />
+      <point x="-62.66666666666666" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLSelectParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="295.0" y="370.0" />
+      <point x="750.125" y="370.0" />
+      <point x="-54.375" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.CommonSelectItem" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.context.selectitem.SelectItem">
+      <point x="0.0" y="-14.5" />
+      <point x="295.0" y="1002.0" />
+      <point x="225.75" y="1002.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1120.0" y="380.0" />
+      <point x="837.125" y="380.0" />
+      <point x="32.625" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.RowCountToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="207.5" y="854.0" />
+      <point x="342.2" y="854.0" />
+      <point x="-20.800000000000004" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="503.0" y="380.0" />
+      <point x="771.875" y="380.0" />
+      <point x="-32.625" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLCreateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.SelectStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.DQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OrderByToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="-7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLInsertParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser">
+      <point x="-5.6843418860808015E-14" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OffsetToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="511.5" y="854.0" />
+      <point x="383.79999999999995" y="854.0" />
+      <point x="20.799999999999983" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.DQLStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="380.5" y="133.0" />
+      <point x="291.16666666666663" y="133.0" />
+      <point x="62.66666666666663" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLTruncateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.AbstractSQLStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.ItemsToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="653.0" y="844.0" />
+      <point x="404.59999999999997" y="844.0" />
+      <point x="41.59999999999998" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="704.0" y="390.0" />
+      <point x="793.625" y="390.0" />
+      <point x="-10.875" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="-5.6843418860808015E-14" y="-14.5" />
+      <point x="1335.0" y="370.0" />
+      <point x="858.875" y="370.0" />
+      <point x="54.375" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="905.0" y="390.0" />
+      <point x="815.375" y="390.0" />
+      <point x="10.875" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.TableToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="59.0" y="844.0" />
+      <point x="321.4" y="844.0" />
+      <point x="-41.6" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1543.0" y="360.0" />
+      <point x="880.625" y="360.0" />
+      <point x="76.125" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.InsertStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.DMLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.DDLStatement" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.AbstractSQLStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLAlterParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="90.5" y="360.0" />
+      <point x="728.375" y="360.0" />
+      <point x="-76.125" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDeleteParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.5" y="334.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
