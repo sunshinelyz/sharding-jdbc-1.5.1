@@ -140,14 +140,7 @@ try (
 </beans>
 ```
 
-**源码解析，公号"天河聊架构"** 
+**源码解析，公号"冰河技术"** 
 
-![微信公众号](gonghao.jpg) 
+![微信公众号](https://img-blog.csdnimg.cn/20200716220443647.png#pic_center) 
 
-**技术微信群**
- 
-![技术微信群](wechat.png) 
-
-**技术钉钉群** 
-
-![技术钉钉群](dingchat.png) 
