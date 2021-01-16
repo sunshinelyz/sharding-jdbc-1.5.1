@@ -103,7 +103,7 @@ public final class Main {
         result.setDriverClassName(com.mysql.jdbc.Driver.class.getName());
         result.setUrl(String.format("jdbc:mysql://localhost:3306/%s", dataSourceName));
         result.setUsername("root");
-        result.setPassword("");
+        result.setPassword("root");
         return result;
     }
     
@@ -112,7 +112,7 @@ public final class Main {
         result.setDriverClassName(com.mysql.jdbc.Driver.class.getName());
         result.setUrl("jdbc:mysql://localhost:3306/trans_log");
         result.setUsername("root");
-        result.setPassword("");
+        result.setPassword("root");
         return result;
     }
     

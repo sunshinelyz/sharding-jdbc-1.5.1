@@ -34,7 +34,7 @@ import java.util.Date;
  * 
  * <pre>
  * 1bit   符号位 
- * 41bits 时间偏移量从2016年11月1日零点到现在的毫秒数
+ * 41bits 时间偏移量从2020年12月1日零点到现在的毫秒数
  * 10bits 工作进程Id
  * 12bits 同一个毫秒内的自增量
  * </pre>
@@ -69,7 +69,7 @@ public final class DefaultKeyGenerator implements KeyGenerator {
     
     static {
         Calendar calendar = Calendar.getInstance();
-        calendar.set(2016, Calendar.NOVEMBER, 1);
+        calendar.set(2020, Calendar.DECEMBER, 1);
         calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
@@ -100,11 +100,14 @@ public final class DefaultKeyGenerator implements KeyGenerator {
     public synchronized Number generateKey() {
         long currentMillis = timeService.getCurrentMillis();
         Preconditions.checkState(lastTime <= currentMillis, "Clock is moving backwards, last time is %d milliseconds, current time is %d milliseconds", lastTime, currentMillis);
+        //如果lastTime与当前的毫秒数相等，首次判断时 lastTime的值默认为0
         if (lastTime == currentMillis) {
+            //sequence的值在毫秒范围内达到了最大值
             if (0L == (sequence = ++sequence & SEQUENCE_MASK)) {
+                //等待下一次毫秒值
                 currentMillis = waitUntilNextTime(currentMillis);
             }
-        } else {
+        } else {  //如果已经过了当前毫秒的时间范围，则将sequence的值重置为0
             sequence = 0;
         }
         lastTime = currentMillis;

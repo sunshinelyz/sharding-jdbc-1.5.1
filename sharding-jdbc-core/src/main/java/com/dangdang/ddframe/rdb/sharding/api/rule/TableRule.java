@@ -208,13 +208,13 @@ public final class TableRule {
         }
         return -1;
     }
-    
+
     /**
      * 表规则配置对象构建器.
      */
     @RequiredArgsConstructor
     public static class TableRuleBuilder {
-        
+
         private final String logicTable;//逻辑表
         
         private boolean dynamic;//是否动态分表
